@@ -7,16 +7,33 @@
 
     <body>
       <!--THis is HTML comment -->
+      <!-- 
+        Shift will indent - Shift + tab will indent backwards.
+        cmd/ctrl + left/right arrows move to start and end of the line
+        cmd/ctrl + up/dowm arrows move to start or end of pages.
+        shift = Cmd/ctrl + left/right/up/down arrows selects to the start/end of a line.
+        shift + up/down arrows select per line.
+       -->
       <!-- Site Header -->
       <header>
           <!-- h1 is the most important heading. we can use 6 levels of heading from h1 to h6  -->
           <h1> Reggi"s Coffee Shop </h1>
+          <nav>
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <Li><a href="contact.html">Contact Us</a></Li>
+             </ul>
+          </nav>
       </header>
       <!-- Starting main contact of the page -->
       <main>
+        <!-- adding an on page link -->
+        <a href="#treatofweek">Treat Of The week</a>
         <!-- artical of the page. this can be used as a stand-alone -->
         <article>
             <h2>Our Story</h2>
+            <!-- adding an image -->
+            <img src="images/150px-Meerkat_(Suricata_suricatta)_Tswalu.jpg" title="Coffee cup on a pil of coffee" alt="image of a birds">
             <p>
                We are the <em >family owned business</em>. Reggie is the <abbr title="Chief Executive Officer"> CEO</abbr> and head barista of the shop. Maria is the pastry chef.   
             </p>
@@ -50,7 +67,7 @@
            <li>July 17<sup>th</sup> - Live Music</li>
         </section>
         <!-- Adding section decription list -->
-        <section>
+        <section id="treatofweek">
           <h3>Treat of the Week</h3>
           <dl>
              <dt>Name</dt>
@@ -72,6 +89,8 @@
                 </ul>
              </dd>
           </dl>
+          <!-- Adding an external link -->
+          <a href="https://www.simplyrecipes.com/recipes/banana_bread/" target="_blank">Get the Recipe</a>
         </section>
       </main>
       <!-- Site Footer -->
