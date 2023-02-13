@@ -4,7 +4,7 @@ body{
 }
 
 header, footer{
-    background-color: orange;
+    background-color: rgb(250, 7, 24);
 }
 .HeadingSecond{
     color: aliceblue;
