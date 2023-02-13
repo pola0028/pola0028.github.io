@@ -3,11 +3,7 @@ body{
     font-size: 18px;
 }
 
-.HeaderMain{
-    background-color: orange;
-}
-
-.FooterMain{
+header, footer{
     background-color: orange;
 }
 .HeadingSecond{
@@ -19,9 +15,12 @@ body{
 .BulletPoint{
     list-style: none;
 }
-.Li1{
-background-color: aqua;
+.hii{
+    list-style-type: square;
 }
+ .hii>li:nth-child(odd){
+background-color: blueviolet;
+ }   
 .RemoveUnderline{
     text-decoration: none;
     background-color: green;
