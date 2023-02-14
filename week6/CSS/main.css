@@ -1,0 +1,61 @@
+body {
+    color: red;
+}
+body {font-style: Arial; Helvetia, sans-serif;
+    color: darkcyan;
+    /* adding background image */
+    background-image: url(../images/white_brick_wall.png) ;
+}
+h1{
+    color: cadetblue;
+}
+p {
+    background-color: antiquewhite;
+}
+/* selecting multiple elements  */
+h1 h2 h3 h4 {
+    text-decoration: underline;
+}
+/* selecting child elemnts */
+nav ul {
+    list-style: none;
+}
+/* selecting child element with multiple levels */
+nav ul a {
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 1.5rem;
+    /* 1.5rem is = 1.5 x 16px = 24px */
+
+}
+article>p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
+}
+#treatofweek{
+    /* color image repeat posotion-x posotion-y */
+    background: rgb(135, 226, 229) url(../images/bread.jpg)
+    no-repeat center;
+    
+    /* background-size */
+    background-size: cover;
+
+    font-size: 1.25rem;
+    /* 1.25 x 16px = 20px */
+    padding: 1em;
+    /* 1 x 20px = 20px */
+    border: 1.5em solid black;
+
+    /* viewport based unit */
+    /* width: 100vw;*/
+    /* Scrool wheel bc it has space coming from the parent, it goes out of the screen which is not ideal  */
+
+    /* height:100vw */
+    /* height is 100% of the browser size and it dynamic */
+
+}
+
+
