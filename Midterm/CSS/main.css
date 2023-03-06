@@ -1,0 +1,95 @@
+/* adding floating image */
+.images img {
+    float: left;
+    margin-right: 10px;
+  }
+  /*adding text wraaped to the image*/
+  .yes {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+  }
+  /*adding background image to h1*/
+  .container {
+    position: relative;
+    background-image: url("images/shake\ hand.jpeg");
+    background-size: cover;
+    background-position:center;
+    color: black;
+    padding: 100px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  /*adding background color html elements*/
+  .htmm {
+    background-color: rgb(245, 133, 133);
+  }
+  /*adding background color to main elements*/
+  .main {
+    background-color: rgba(96, 234, 142, 0.658);
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  /*adding style to unordered list*/
+  .ul {
+    list-style-type: none;
+    color: black;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+  }
+  /*removing underline and adding color to link*/
+  .a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  /*adding text color to list and changing it's style to circle*/
+  .p {
+    color: rgb(82, 90, 90);
+    list-style: square;
+  }
+  .but {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 2px;
+    display: block;
+    padding: 5px 5px;
+  }
+  /*modifying unordered lists*/
+  .ul li {
+    display: inline-block;
+    margin: 0 100px;
+    position: relative;
+  }
+  /*adding vertical line beside a list*/
+  .with-border::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -100px;
+    height: 100%;
+    width: 2px;
+    background-color: black;
+  }
+  /*adding vertical line beside a list*/
+  .with-border::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: -100px;
+    height: 100%;
+    width: 2px;
+    background-color: black;
+  }
+  /*adding margin*/
+  .margin {
+    margin-left: 5px;
+  }
+  .marginn {
+    margin-left: 15px;
+  }
+  

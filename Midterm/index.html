@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="htmm">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Pola0028 midterm Project</title>
+</head>
+
+<body>
+    <header>
+        <!--Adding overlay text-->
+        <div class="container">
+            <div>
+                <h1 class="h1">Tata Consultancy Service</h1>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <main>
+            <!--Adding navigation-->
+            <nav class="">
+
+                <ul class="ul">
+                    
+                        <li><a href="#home" class="a">Home</a></li>
+                        <li class="with-border"><a href="#Aboutus" class="a">About Us</a></li>
+                        <li><a href="#interaction" class="a">Interaction</a></li>
+                    
+                </ul>
+            </nav>
+            <!--Adding Tata Consultancy Service logo image with text wrapped around it-->
+
+            <div class="margin">
+                <h2>About Us</h2>
+                <div class="images">
+                    <img src="Images/tata logo.jpg" alt="Tata logo" height="150">
+                    <article class="p">Tata Consultancy Services Limited, initially started as Tata Computer Systems, was founded in 1968 by a division of Tata Sons Limited.[21] Its early contracts included punched card services to sister company TISCO (now Tata Steel), working on an Inter-Branch Reconciliation System for the Central Bank of India,[22] and providing bureau services to Unit Trust of India.In 1975, TCS delivered an electronic depository and trading system called SECOM for a Swiss company SIS SegaInterSettle; it also developed System X for the Canadian Depository System and automated the Johannesburg Stock Exchange.[23] TCS associated with a Swiss partner, TKS Teknosoft, which it later acquired.In 1980, TCS established India's first dedicated software research and development centre, the Tata Research Development and Design Centre (TRDDC) in Pune.[25] In 1981, it established India's first client-dedicated offshore development centre, set up for clients Tandem. In 1993 TCS partnered with Canada-based software factory Integrity Software Corp, which TCS later acquired.Towards the end of 1999, TCS decided to offer Decision Support System (DSS) in the domestic market under its Corporate Vice President and Transformation Head Subbu Iyer.[27] The company also registered its first tagline “Beyond the Obvious” in 1999. </article>
+                </div>
+            </div>
+
+            <div id="Aboutus" class="margin">
+                <!--Facts about spacex-->
+                <h3>Facts</h3>
+                <ul class="p">
+                    <li>TCS is one of the largest private-sector employers in India.</li>
+                    <li>TCS has crossed more than 600,000 employees as of 8 July 2022.</li>
+                    <li>The employee costs for the FY 2012–13 were US$4.38 billion, which was approx. 38% of the total revenue of the company for that period.</li>
+                    <li>In the fiscal year 2012–13, TCS recruited a total of 69,728 new staff, of whom 59,276 were based in India and 10,452 were based in the rest of the world.</li>
+                    <li>In 2012, the Tata Group companies, including TCS, were the second-largest recipient of H-1B visas.[130][131] As of Jan 2020, TCS has over 400,000+ employees</li>
+                </ul>
+            </div>
+        </main>
+        <h3 class="margin">Contact us if you like our Work! </h3>
+        <!--Adding form--> 
+        <form style="border: 1px solid black;">
+            <div class="margin" id="interaction">
+                <label>Your Identitys</label><br>
+                <input type="text" placeholder="Enter your identity" name="your identity" style="width: 900px;"><br>
+                <label>Your Numbers</label><br>
+                <input type="tel" placeholder="Enter your number" name="your number" style="width: 900px;" required oninput="this.value=this.value.replace(/[^0-9]/g,'');" maxlength="10"><br>
+                <label>Your interest </label><br>
+                <input type="text" style="width: 900px; height: 175px;">
+            </div>
+            <div class="margin">
+                Do you like the service of the Tata Consultancy Service?<br>
+                <input type="radio" name="choice" value="Yesforsure!" id="Yesforsure!">
+                <label for="Yesforsure!">Yes, for sure!</label>
+                <input type="radio" name="choice" value="NoI'mnotinterested" id="NoI'mnotinterested">
+                <label for="NoI'mnotinterested">No, I'm not interested.</label>
+                <input type="radio" name="choice" value="Maybe" id="Maybe">
+                <label for="Maybe">Maybe.</label><br>
+                <button class="but">submit</button>
+            </div>
+        </form>
+        <!--Adding copyright symbol-->
+        <footer class="yes">
+            <p>&copy;Tata Consultacy Services.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
