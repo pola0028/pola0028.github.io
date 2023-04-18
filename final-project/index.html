@@ -5,228 +5,248 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pola0028 Web Devlopment</title>
+    <title>Pola0028 Web Devlopment Final Project</title>
+    <script src="https://kit.fontawesome.com/d70377e64e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 
-<body>
-
+<body class="container">
+   
+    <!-- Adding Menu Section -->
     <header>
-        <div>
-            <!-- Introductuion Added -->
-            <nav>
-                <img src="images/logo.png" alt="logo">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#aboutus">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
+        <div class="menu">
+            <!-- navigation -->
+            <nav class="wrapper">
+                <div class="logo-container">
+                    <img src="images/logo.png" alt="logo"> </div>
+                <ul class="menu">
+                    <li class="menu"><a href="#home">Home</a></li>
+                    <li class="menu"><a href="#aboutus">About Us</a></li>
+                    <li class="menu"><a href="#services">Services</a></li>
+                    <li class="menu"><a href="#team">Team</a></li>
+                    <li class="menu"><a href="#contact">Contact</a></li>
                 </ul>
-                <input type="text" placeholder="search" name="search">
-
+                <!-- Adding Search Button -->
+                <input class=search-bar type="text" placeholder="Search" name="search">
+                <button class=search-button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </nav>
         </div>
-        <!-- Adding section and named it Welcome to three star media -->
-        <div>
-            <img src="images/main-banner.jpg" alt="main banner">
-        </div>
-            <div>
-                <h1>Welcome to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
-                    quidem et labore unde odio animi rem error perferendis numquam, neque aperi</p>
-                <a href="#contact">Connect with you</a>
+        <!-- Adding Main banner iamge -->
+        <div class="main-banner responsive-image" id="home">
+            <div class="flex-container">
+                <img src="images/main-banner.jpg" alt="main banner">
+                <!-- Adding Welcome to three star media-->
             </div>
+            <div class="dark-background">
+                <h1>Welcome to Three Star Media</h1>
+                <p>Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries,Lorem </p>
+                <a href="#contact" class="btn secondary">Connect with us<i class="fa-solid fa-caret-right"></i></a>
+            </div>
+        </div>
     </header>
 
     <main>
-
-
-        <!-- adding About us -->
-        <div>
-            <img src="images/about-us.jpg" alt="About us">
-        </div>
-
-        <div>
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut consequat. </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut e consequat. </p>
-        </div>
-
-
-
-        <!-- Adding Our Services -->
-
-        <h2>Our Services</h2>
-
-        <div>
-            <img src="images/digital.jpg" alt="digital">
-            <h3>Digital Transformation</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. i ut aliquip ex ea commodo consequat. </p>
-
-            <a>Digital Plans<i class="fa-solid fa-caret-right"></i></a>
-
-        </div>
-        <!-- Adding Marketing Section -->
-        <div>
-            <img src="images/marketing.jpg" alt="Marketing">
-            <h3>Marketing</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. llamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <a>Marketing Plans</a>
-        </div>
-        <!-- Adding video Production section -->
-        <div>
-            <img src="images/video.jpg" alt="Video">
-            <h3>Video Production</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing ellabore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Eligendi, quaerat nam omnis alias dignissimos totam sunt
-                hic distinctio consequuntur beatae, sit tempora nobis saepe aliquam voluptatum iure similique odio
-                tenetur! </p>
-
-            <!-- Adding web develoment Section -->
-
-            <img src="images/web.jpg" alt="Web">
-
-            <h3>Web Development</h3>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et
-                dolore magna aliqua. Ut enim ad minim laboris nisi ut aliquip ex ea commodo consequat. </p>
-
-            <a>Web Plans</a>
-        </div>
-        <!-- Adding Print Section -->
-        <div>
-            <img src="images/print.jpg" alt="print">
-            <h3>Print</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
-            <a>Print Plans</a>
-        </div>
-
-        <!-- Adding Our Vision Section -->
-        <div>
-            <h3>Our Vision</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            </p>
-            <a>Learn More</a>
-        </div>
-
-
-
-        <!-- Adding Our Team -1  -->
-        <h2>Our Team</h2>
-        <div class="team-image">
-            <img src="images/john.jpg" alt="john">
-        </div>
-
-        <div>
-            <h3>John Doe</h3>
-            <p>CEO and Co-owner</p>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-        </div>
-
-        <!-- Adding Our Team -2 -->
-
-        <h2>Our Team</h2>
-        <div class="team-image">
-            <img src="images/bob.jpg" alt="bob-image">
-        </div>
-
-        <div>
-            <h3>Bob Rite</h3>
-            <p>CEO and Co-owner</p>
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error possimus recusandae voluptatem autem
-                corrupti illo. Quaerat, magnam ipsa rerum dicta animi necessitatibus id eveniet sit amet inventore iure,
-                commodi libero! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt alias cumque totam
-                corporis distinctio recusandae quaerat aliquid porro aliquam ut voluptatum explicabo incidunt
-                praesentium inventore minima omnis, fugit repellendus veritatis! Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Eos, sed impedit cum, temporibus obcaecati est quas sit dolorum harum blanditiis fuga
-                in quos optio nobis corrupti accusantium adipisci eligendi expedita. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Unde consequuntur odit ex fugit vel sequi minus, nobis quidem a animi eius
-                quia nihil iste dolorem voluptates quae nostrum est sint.
-            </p>
-        </div>
-
-        <!-- Adding Contact Us Form -->
-
-            <h2>Contact Us</h2>
-            <!-- Adding Send a message secion -->
-        <div>
-                <h3>Send us a message</h3>
-                <form>
-                    <div>
-                        <label id="name">Full name</label>
-                        <input type="text" name="name">
-                    </div>
-
-                    <div>
-                        <label id="email">Email</label>
-                        <input type="text" name="email">
-                    </div>
-
-                    <div>
-                        <label for="message">Message</label>
-                        <textarea id="message"></textarea>
-                    </div>
-
-                    <div>
-                        <button type="submit">Send</button>
-                    </div>
-                </form>
-
-                <div>
-                    <table>
-                        <thead>
-
-                            <tr>
-                                <th>Days</th>
-                                <th>Hours</th>
-                            </tr>
-
-                        </thead>
-                        <tbody>
-
-                            <tr>
-                                <td>Monday - Friday</td>
-                                <td>9 AM - 6PM</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday - Sunday</td>
-                                <td>Closed</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
+        <!-- Adding About Us Section -->
+        <div class="color-section">
+            <section class="wrapper" id="aboutus">
+                <div class="about-image">
+                    <img src="images/about-us.jpg" alt="about us">
                 </div>
-                <!-- Adding Location Section on Google map -->
-                <div>
-                    <h3>Location</h3>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106711.15732707671!2d-75.79328876555347!3d45.34563935847575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1648868142056!5m2!1sen!2sca"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to</p>
                 </div>
+            </section>
+        </div>
+        <!--Adding Our Services Section -->
+        <div>
+            <section class="wrapper" id="services">
+                <h2>Our Services</h2>
+                <div class="services">
+                    <div class="service digital responsive-image">
+                        <img src="images/digital.jpg" alt="digital">
+                        <div class="service-text">
+                            <!-- Adding Digital Transformation section -->
+                            <h3>Digital Transformation</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <a href="#" class="btn dark">Digital Plans<i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Adding Service marketing image -->
+                    <div class="service marketing responsive-image">
+                        <img src="images/marketing.jpg" alt="marketing">
+                        <div class="service-text">
+                            <!-- Adding Marketing Section -->
+                            <h3>Marketing</h3>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                            <a href="#" class="btn dark">Marketing Plans<i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Adding service video image -->
+                    <div class="service video responsive-image">
+                        <img src="images/video.jpg" alt="video">
+                        <div class="service-text">
+                            <!-- Adding video production section -->
+                            <h3>Video Production</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled</p>
+                            <a href="#" class="btn dark">Video Plans<i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="service web responsive-image">
+                        <img src="images/web.jpg" alt="web">
+                        <div class="service-text">
+                            <!-- Adding web development section -->
+                            <h3>Web Development</h3>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                            <a href="#" class="btn dark">Web Plans<i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="service print responsive-image">
+                        <img src="images/print.jpg" alt="print">
+                        <div class="service-text">
+                            <!-- Adding print section -->
+                            <h3>Print</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled</p>
+                            <a href="#" class="btn dark">Print Plans<i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--Adding Our Vision Section -->
+        <section class="vision background-vision">
+            <div class="wrapper">
+                <h3>Our Vision</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled</p>
+                <a href="#" class="btn dark-secondary">Learn More<i class="fa-solid fa-caret-right"></i></a>
+            </div>
+        </section>
+        <section class="wrapper" id="team">
+            <!-- Adding Our Team Section -->
+            <h2>Our Team</h2>
+            <div class="team">
+                <div class="responsive-image">
+                    <img src="images/john.jpg" alt="john">
+                </div>
+                <div class="color-section team-member">
+                    <!-- Adding person-1 name -->
+                    <h3>John Doe</h3>
+                    <p class="subtitle">CEO and Co-owner</p>
+                    <hr>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled</p>
+                </div>
+                <div class="responsive-image">
+                    <img src="images/bob.jpg" alt="bob">
+                </div>
+                <div class="color-section team-member">
+                    <!-- Adding person-2 name -->
+                    <h3>Bob Rite</h3>
+                    <p class="subtitle">
+                        CEO and Co-owner</p>
+                    <hr>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled</p>
+                </div>
+            </div>
+        </section>
+        <!-- Adding Contact Us Section -->
+        <div>
+            <section class="wrapper" id="contact">
+                <h2>Contact Us</h2>
+                <div class="contact">
+                    <div class="message">
+                        <h3>Send us a message</h3>
+                        <form>
+                            <div>
+                                <label for="name">Full name</label>
+                                <input type="text" id="name" name="name">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="text" id="email" name="email">
+                            </div>
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="hours">
+                        <!--adding  Hours of Operation Section -->
+                        <h3>Hours of operation</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Days</th>
+                                    <th>Hours</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday - Friday</td>
+                                    <td>9 AM - 6PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday - Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <!-- Adding Location Section -->
+                    <div class="map">
+                        <h3>Location</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7930.692313840881!2d-75.76123735599185!3d45.35036341468247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1650041278714!5m2!1sen!2sca"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" height="400"
+                            width="500"></iframe>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
-    <!-- Adding Footer -->
+    <!-- Adding Footer Section -->
     <footer>
-        <div>
-            <p>Copyrigth Three Star Media, 2020</p>
-            <p>All Images are taken from <a href="https://unsplash.com/">Unplash</a></p>
+
+        <div class="wrapper">
+
+            <p> &#169; Copyrigth Three Star Media, 2020</p>
+
+            <!-- Adding source link -->
+            <p>All images are taken from <a href="https://unsplash.com/" target="_blank">Unplash</a></p>
+
         </div>
+
     </footer>
 
 </body>
